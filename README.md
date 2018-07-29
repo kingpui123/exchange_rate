@@ -85,7 +85,7 @@ Secondly, if the premium calls are availale, or there are other APIs with such f
 Finally, I am not a expert of using React. There should be some more precise or clean expression in code. 
 
 ## Finding this App
-[https://exchange-rate-aftership.herokuapp.com/converter](https://exchange-rate-aftership.herokuapp.com/converter)
+[https://exchange-rate-aftership.herokuapp.com/](https://exchange-rate-aftership.herokuapp.com/)
 
 ## My CV
 [https://drive.google.com/file/d/125kMbQZuUs6njb1X37NzqRG5lX24qWQX/view?usp=sharing](https://drive.google.com/file/d/125kMbQZuUs6njb1X37NzqRG5lX24qWQX/view?usp=sharing)
