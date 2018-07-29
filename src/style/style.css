@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-wrapper{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.page-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5em auto;
+  text-align: center;
+}
+
+.card-title, .card-text, .card-subtitle, .text-center {
+  text-align: center;
+}
+
+#card-result {
+  text-align: center;
+}
+
+.guide {
+  margin: 1em 0;
+}
+
+.card-icon {
+  display: block;
+  margin: 0.5em auto;
+  font-size: 1.5em;
+
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 1em;
+    overflow-x: hidden;
+    overflow-y: hidden; 
+    background-color: #f5f5f5;
+    border-right: 1px solid #eee;
+}
+
+.icon {
+  display: inline-block;
+  justify-content: center;
+  margin: 0 0.5em;
+  text-align:center;
+}
+
+.currency-flag{
+  border-radius: 100%;
+}
+
+.search {
+  margin-bottom: 1em;
+  width: 50%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nav-item {
+  margin-bottom : 0.75rem;
+  font-size: 1.5vw;
+}
+
+.bottom{
+  width : 100%;
+  margin-bottom : 0.75rem;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+@media screen and (min-width: 1180px) {
+  .nav-item {
+     font-size: 1.2rem;
+  }
+}
