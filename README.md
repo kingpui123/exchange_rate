@@ -1,7 +1,5 @@
 # exchange_rate - AfterShip Coding Challenge
 
-This service is 
-
 ## Description of the problem and solution
 The challenge selected is Exchange Rate, which is to build a service giving the latest and historical exchange rate for the currency.
 
@@ -71,16 +69,23 @@ As a normal person, knowing the rate alone is not informative enough. The most n
 ### Solution
 We use the call that gives the latest exchange rate again. After getting the latest exchange of the currency selected by user, we multiply it by the amount the user keys in. Then a equivalent amount of target currency is obtained. Then it is returned to user.
 
+## Front/Back-end?
+This is full-stack solution of the problem of getting exhalnge rates data. On frontend, the user experience as well as data presentation are the focus. On backend, the communication with API is a key area to concern.
+
+
 ## Tradeoffs made
 
 The major tradeoff made is on the functionality. The API is really a limitation. Besides the time-series data mentioned above, the inability to change the base is another huge limitation. The base is limited to USD for free-tier user. So all the results in this service are with the base of USD. 
 
 ## Things to Improve if time allows
-Firstly, the UI design can be improved as I am not a good designer. 
+Firstly, the UI design can be improved as I am not a good designer. The mobile layout is a mess so it is a huge area to improve.
 
 Secondly, if the premium calls are availale, or there are other APIs with such functions, we can strike for a better balance between performance and data presenation. But in this challenge, no other API are taken into account as research needs time.
 
 Finally, I am not a expert of using React. There should be some more precise or clean expression in code. 
+
+## Finding this App
+[https://exchange-rate-aftership.herokuapp.com/converter](https://exchange-rate-aftership.herokuapp.com/converter)
 
 ## My CV
 [https://drive.google.com/file/d/125kMbQZuUs6njb1X37NzqRG5lX24qWQX/view?usp=sharing](https://drive.google.com/file/d/125kMbQZuUs6njb1X37NzqRG5lX24qWQX/view?usp=sharing)
