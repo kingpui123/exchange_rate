@@ -15,7 +15,6 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the Node.js code
-      - npm start
   post_build:
     commands:
       - echo Build completed on `date`
