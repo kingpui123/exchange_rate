@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <div>
           <div>
-            <h1 className='page-header'>Exchange Rate Checking Tool</h1>
+            <h1 className='page-header'>Exchange Rate Checking Tool tolodkbjnszvkldngkvd;gmdfg</h1>
           </div>
 
           <div className='card-group'>
